@@ -4,6 +4,7 @@ import AccountList from "../../components/Account-Balance/Account-List/account-l
 import styles from "./Dashboard.module.css";
 
 const Dashboard = () => {
+  const [isLoading, setIsLoading] = useState(true);
   const [accounts, setAccounts] = useState([]);
 
   useEffect(() => {
@@ -16,6 +17,7 @@ const Dashboard = () => {
         });
         const data = await response.json();
         setAccounts(data.accounts);
+        setIsLoading(false);
       } catch (error) {
         console.error("Error fetching accounts:", error);
       }
@@ -24,7 +26,13 @@ const Dashboard = () => {
     fetchBankAccounts();
   }, []);
 
-  console.log(accounts);
+  if (isLoading) {
+    return (
+      <div className={styles.loading}>
+        <p>I am loading</p>
+      </div>
+    );
+  }
 
   return (
     <div className={styles.dashboardContainer}>
