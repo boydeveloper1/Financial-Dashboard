@@ -2,6 +2,10 @@
 
 This repo contains a full-stack application that displays account balances. It is built using a `Spring Boot` backend for handling the API and a `React` frontend for displaying the account information.
 
+Project Link:
+Backend: https://financial-dashboard-backend-production.up.railway.app/
+Frontend: https://dainty-snickerdoodle-11fbac.netlify.app/
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
