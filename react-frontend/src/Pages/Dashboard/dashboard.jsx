@@ -7,6 +7,7 @@ const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [accounts, setAccounts] = useState([]);
 
+  // api request
   useEffect(() => {
     const fetchBankAccounts = async () => {
       try {
@@ -39,7 +40,7 @@ const Dashboard = () => {
       <div className={styles.welcomeText}>
         <h1>Welcome</h1>
       </div>
-      {accounts && <AccountList accounts={accounts} />}{" "}
+      {accounts && <AccountList accounts={accounts} />}
     </div>
   );
 };
