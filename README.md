@@ -8,6 +8,8 @@ Backend: https://financial-dashboard-backend-production.up.railway.app/
 
 Frontend: https://dainty-snickerdoodle-11fbac.netlify.app/
 
+User stories and wireframes: https://github.com/boydeveloper1/Financial-Dashboard/blob/master/user-stories-and-wireframes.pdf
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
