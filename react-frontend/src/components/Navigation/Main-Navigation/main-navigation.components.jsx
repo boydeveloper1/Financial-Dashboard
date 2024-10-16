@@ -10,7 +10,11 @@ const MainNavigation = () => {
     <>
       <MainHeader>
         <Link to="/" className={styles.underline}>
-          <img className={styles.headerImage} src="#" alt="Happy-Bank" />
+          <img
+            className={styles.headerImage}
+            src="/ninja bank.png"
+            alt="Happy-Bank"
+          />
         </Link>
         <nav className={styles.mainHeaderNav}>
           <Navlinks />

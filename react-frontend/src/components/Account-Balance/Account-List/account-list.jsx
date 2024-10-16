@@ -10,7 +10,7 @@ const AccountList = ({ accounts }) => {
   const accountCategories = [
     {
       name: "Banking Accounts",
-      types: ["Savings Account", "Chequing Account"],
+      types: ["Savings Account", "Checking Account"],
     },
     { name: "Investment Accounts", types: ["Investment Account"] },
     { name: "Credit Card Accounts", types: ["Credit Card Account"] },

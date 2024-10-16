@@ -1,22 +1,21 @@
-// balances.json
 {
   "accounts": [
     {
       "accountId": "001",
       "accountName": "Savings Account",
-      "balance": 5000,
+      "balance": "5,000",
       "currency": "CAD"
     },
     {
       "accountId": "002",
       "accountName": "Checking Account",
-      "balance": 1200,
+      "balance": "1,200",
       "currency": "CAD"
     },
     {
       "accountId": "003",
       "accountName": "Investment Account",
-      "balance": 20000,
+      "balance": "20,000",
       "currency": "CAD"
     }
   ]

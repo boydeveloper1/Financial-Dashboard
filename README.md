@@ -2,6 +2,12 @@
 
 This repo contains a full-stack application that displays account balances. It is built using a `Spring Boot` backend for handling the API and a `React` frontend for displaying the account information.
 
+**Project Link:**
+
+Backend: https://financial-dashboard-backend-production.up.railway.app/
+
+Frontend: https://dainty-snickerdoodle-11fbac.netlify.app/
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -65,7 +71,7 @@ mvn clean install
 2. Run the Spring Boot app:
 
 ```bash
-./mvn spring-boot:run
+mvn spring-boot:run
 ```
 
 3. The backend will run on `http://localhost:8080`. To use the API:
