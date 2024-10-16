@@ -12,7 +12,7 @@ const Dashboard = () => {
     const fetchBankAccounts = async () => {
       try {
         const response = await fetch(
-          `${process.env.REACT_APP_API_URL}/balances`,
+          `${import.meta.env.VITE_API_URL}/balances`,
           {
             headers: {
               "Content-Type": "application/json",
