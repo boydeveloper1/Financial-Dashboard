@@ -11,11 +11,14 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchBankAccounts = async () => {
       try {
-        const response = await fetch("http://localhost:8080/balances", {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
+        const response = await fetch(
+          `${import.meta.env.VITE_API_URL}/balances`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
         const data = await response.json();
         setAccounts(data.accounts);
         setIsLoading(false);
